@@ -1,0 +1,23 @@
+// adjustment variables
+$container-width: 960px;
+$body-font: "Helvetica", sans-serif;
+
+// colors
+$bg: #F5F5F5;
+$black: #333;
+$divide-color: #E0E0E0;
+
+//layout
+@import "_misc/_normalize";
+@import "_misc/_fonts";
+@import "_misc/_mixins";
+@import "_misc/_adjustment";
+
+
+// styles
+@import "sections/header";
+@import "sections/calculator";
+@import "sections/footer";
+
+// media
+// @import "_misc/media";

@@ -1,0 +1,72 @@
+// base layout styles
+
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+	
+	@include desktop {
+		font-size: 16px;
+	}
+
+	@include laptop {
+		font-size: 15px;
+	}
+
+	@include tablets {
+		font-size: 14px;
+	}
+
+	@include phones {
+		font-size: 13px;
+	}
+}
+
+
+body, html{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: $body-font;
+	line-height: 1.42;
+	-webkit-font-smoothing: antialiased;
+	background: $bg;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	font-weight: normal;
+}
+
+img, video, audio{
+	max-width: 100%;
+	height: auto;
+	align-self: flex-start;
+}
+
+label, button, input, select { 
+	cursor: pointer; 
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.container {
+	max-width: $container-width;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

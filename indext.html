@@ -9,7 +9,7 @@
 
 	<title>Calculator</title>
 	
-	<link rel="shortcut icon" href="img/favicon.png" type="png">
+	<!-- <link rel="shortcut icon" href="img/favicon.png" type="png"> -->
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -17,36 +17,41 @@
 	<div class="container">
 		<div class="calculator">
 			<div class="calculator__result">
-				<h1 class="calculator__result-item">123</h1>
+				<h1 class="calculator__result-item">&nbsp;</h1>
 			</div>
 			<div class="calculator__button">
 				<div class="calculator__numbers">
-					<button class="calculator__button-item calculator__buttonitem_null"></button>
-					<button class="calculator__button-item calculator__buttonitem_null"></button>
-					<button class="calculator__button-item calculator__buttonitem_null"></button>
-					<button class="calculator__button-item calculator__buttonitem_seven">7</button>
-					<button class="calculator__button-item calculator__buttonitem_eight">8</button>
-					<button class="calculator__button-item calculator__buttonitem_nine">9</button>
-					<button class="calculator__button-item calculator__buttonitem_fife">5</button>
-					<button class="calculator__button-item calculator__buttonitem_four">4</button>
-					<button class="calculator__button-item calculator__buttonitem_six">6</button>
-					<button class="calculator__button-item calculator__buttonitem_one">1</button>
-					<button class="calculator__button-item calculator__buttonitem_two">2</button>
-					<button class="calculator__button-item calculator__buttonitem_three">3</button>
-					<button class="calculator__button-item calculator__buttonitem_point">.</button>
-					<button class="calculator__button-item calculator__buttonitem_zero">0</button>
-					<button class="calculator__button-item calculator__buttonitem_clear">&#9668;</button>
+					<button class="calculator__button-item calculator__button-item-clear">C</button>
+					<button class="calculator__button-item">&nbsp;</button>
+					<button class="calculator__button-item">&nbsp;</button>
+
+					<button class="calculator__button-item calculator__button-item-seven">7</button>
+					<button class="calculator__button-item calculator__button-item-eight">8</button>
+					<button class="calculator__button-item calculator__button-item-nine">9</button>
+
+					<button class="calculator__button-item calculator__button-item-fife">5</button>
+					<button class="calculator__button-item calculator__button-item-four">4</button>
+					<button class="calculator__button-item calculator__button-item-six">6</button>
+
+					<button class="calculator__button-item calculator__button-item-one">1</button>
+					<button class="calculator__button-item calculator__button-item-two">2</button>
+					<button class="calculator__button-item calculator__button-item-three">3</button>
+
+					<button class="calculator__button-item calculator__button-item-point">.</button>
+					<button class="calculator__button-item calculator__button-item-zero">0</button>
+					<button class="calculator__button-item calculator__button-item-delete">&#8592;</button>
 				</div>
 				<div class="calculator__operators">
-					<button class="calculator__button-item calculator__buttonitem_divide">&#247;</button>
-					<button class="calculator__button-item calculator__buttonitem_multiply">&#215;</button>
-					<button class="calculator__button-item calculator__buttonitem_minus">&#8722;</button>
-					<button class="calculator__button-item calculator__buttonitem_plus">+</button>
-					<button class="calculator__button-item calculator__buttonitem_equally">=</button>
+					<button class="calculator__button-item calculator__button-item-divide">&#247;</button>
+					<button class="calculator__button-item calculator__button-item-multiply">&#215;</button>
+					<button class="calculator__button-item calculator__button-item-minus">&#8722;</button>
+					<button class="calculator__button-item calculator__button-item-plus">+</button>
+					<button class="calculator__button-item calculator__button-item-equally">=</button>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<script src="js/index.js"></script>
 </body>
 </html>

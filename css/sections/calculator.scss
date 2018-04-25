@@ -8,11 +8,11 @@
 	flex-direction: column;
 }
 
-.calculator__result{
+.calculator__display-item{
 	border-bottom: 1px solid $divide-color;
 }
 
-.calculator__result-item{
+.calculator__display-item{
 	text-align: right;
 	padding: rem(24px)
 }
@@ -24,25 +24,6 @@
 	align-items: center;
 }
 
-.calculator__button-item{
-	outline: 0;
-	border: 0;
-	background:none;
-	width: rem(56px);
-	height: rem(56px);
-	margin: rem(8px);
-	border-radius: 70%;
-	background: $bg;
-	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.16);
-	&:hover{
-		background: darken($bg, 4%)
-	}
-	&:active{
-		box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.16);
-		background: darken($bg, 8%)
-	}
-}
-
 .calculator__numbers{
 	width: 71%;
 }
@@ -50,4 +31,33 @@
 .calculator__operators{
 	width: 22%;
 }
+
+.calculator__button-item{
+	outline: 0;
+	border: 0;
+	background:none;
+	width: rem(56px);
+	height: rem(56px);
+	margin: rem(8px);
+	border-radius: 5px;
+	background: $bg;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.16);
+	transition: .3s;
+	&:hover{
+		background: darken($bg, 4%)
+	}
+	&:active{
+		box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 0.16);
+		// background: darken($bg, 8%)
+	}
+}
+
+.calculator__button-item-delete{
+		width: 8.3rem;
+}
+
+.calculator__button-item-zero{
+	width: 13.1rem;
+}
+
 
